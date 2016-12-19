@@ -49,7 +49,7 @@ RUN dnf install -y \
 
 RUN dnf install -y \
 	llvm \
-	clang \
+	clang-3.9 \
 	compiler-rt
 
 RUN dnf install -y glibc-langpack-en.x86_64
